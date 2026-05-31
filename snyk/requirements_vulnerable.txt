@@ -1,0 +1,10 @@
+# Sample vulnerable requirements — used by Conductor Snyk scenario
+# Issues: requests==2.18.0 (CVE-2023-32681), flask==0.12.4 (multiple CVEs)
+# Conductor will plan: pin requests>=2.31.0 and flask>=2.3.0
+
+requests==2.18.0
+flask==0.12.4
+Pillow==8.0.0
+PyYAML==3.13
+lxml==4.4.0
+cryptography==2.6.1
